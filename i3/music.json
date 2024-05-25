@@ -1,0 +1,84 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "none",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 2159,
+       "width": 3839,
+       "x": 2560,
+       "y": 0
+    },
+    "marks": [],
+    "name": "Cider",
+    "percent": 0.66882183908046,
+    "swallows": [
+       {
+          "class": "^Cider$"
+       // "instance": "^cider$",
+       // "machine": "^murad$",
+       // "title": "^Cider$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splith split container with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.33117816091954,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 482,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "cava",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^kitty$"
+               // "instance": "^kitty$",
+               // "machine": "^murad$",
+               // "title": "^cava$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 482,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "i3-save-tree --workspace 2 > ~/.config/i3/music.json",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^kitty$"
+               // "instance": "^kitty$",
+               // "machine": "^murad$",
+               // "title": "^i3\\-save\\-tree\\ \\-\\-workspace\\ 2\\ \\>\\ \\~\\/\\.config\\/i3\\/music\\.json$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
