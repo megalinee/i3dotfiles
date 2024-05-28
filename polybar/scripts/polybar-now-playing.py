@@ -18,6 +18,8 @@ update_delay = 0.3
 # (list) : list of chars containing previous, play, pause, next glyphs for media controls in respective order
 control_chars = ['','','','']
 
+# Display logo
+
 # (dict) : dict of char icons to display as prefix.
 # If player name is available as key, then use the corressponding icon,
 # else default key value.
@@ -194,8 +196,8 @@ def print_text():
         print("", flush = True)
         return
     scroll()
-    print(
-        "%%{T%d}" % (font_index) +
+    print(display_prefix + 
+        "%%{T%d}  " % (font_index) +
         make_visual_len(display_text, message_display_len) +
         "%{T-}  " + display_suffix, flush=True)
 
